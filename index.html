@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/gamescript.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row header">
+        <div class="col-md-12">
+            <h1>Tic Tac Toe Game</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <button type="button" id="startbtn" title="Click for play the game">Play<span class="glyphicon glyphicon-play"></span></button>
+            <button type="button" id="endbtn" title="Click for terminate the game">Stop<span class="glyphicon glyphicon-stop"></span></button>
+        </div>
+        <div class="col-md-5">
+            <table class="gameinterface">
+                <tr>
+                    <td>X</td>
+                    <td>O</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>X</td>
+                    <td>O</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>X</td>
+                    <td>O</td>
+                    <td>X</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-4">
+            <table class="gamescore">
+                <tr>
+                    <th colspan="2">Game Scores</th>
+                </tr>
+                <tr>
+                    <td>Player-1</td>
+                    <td>Player-2</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="row footer">
+        <div class="col-md-12">
+            <marquee class="wordanimation" behavior=alternate direction="left" scrollamount="10">Welcome to Tic Tac Toe
+                Game.....play it and Enjoy.....
+            </marquee>
+        </div>
+    </div>
+</div>
+</body>
+</html>
